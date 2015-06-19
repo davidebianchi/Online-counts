@@ -26,5 +26,5 @@ var countRepos = function (orgName) {
 Promise.map(orgs, countRepos)
     .then(R.sum)
     .then(function (totCount) {
-        console.log("The number of repo Mondora in GitHub is: " + totCount);
+        console.log("Mondora has " + totCount + " repositories on Github");
     });
