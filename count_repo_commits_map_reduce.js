@@ -10,11 +10,11 @@ var countRepos = function (orgName) {
         url: "https://api.github.com/orgs/" + orgName + "/repos?per_page=100",
         json: true,
         auth: {
-            user : "dade12",
-            password: "ca03e9df6c77d9dc9294323c23b44143b4a7cf22"
+            user : "davidebianchi",
+            password: "2c641a35bc16096e9fae4ec4cda681ad36315235"
         },
         headers: {
-            "User-Agent": "dade12",
+            "User-Agent": "Davide",
         }
     };
     return request(options)
