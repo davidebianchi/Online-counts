@@ -39,7 +39,6 @@ strava.clubs.listActivitiesAsync(options)
         });
     var sumTot = R.sum(meters);
     console.log("I colleghi mondora hanno percorso " + (sumTot/1000).toFixed(2) + " km in bici.");
-
     })
     .catch(function (err) {
         console.log(err);
