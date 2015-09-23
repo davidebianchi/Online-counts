@@ -11,7 +11,7 @@ var dateCalc = function dateCalc (days_before) {
 };
 
 var options = {
-    "id" : 148440
+    "id" : // your id
 };
 
 var countMembersStrava = function () {
